@@ -15,6 +15,7 @@ async function mostrarPosts() {
     // 3. Mostrar los títulos en la lista usando map, join e innerHTML
   } catch (error) {
     // 4. Mostrar mensaje de error si algo falla
+    lista.innerHTML = "<li>No se pudo cargar la información</li>";
   }
 }
 
